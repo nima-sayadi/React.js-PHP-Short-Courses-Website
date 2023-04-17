@@ -1,0 +1,91 @@
+.card {
+    width: 30%;
+    background-color: var(--card-bg);
+    border: 2px solid var(--dark-green);
+    border-radius: 10px;
+    box-shadow: 0px 9px 6px rgba(87, 65, 69, 0.1);
+    padding: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #c0c0c0a8;
+}
+
+.header h3 {
+    margin: 0;
+    font-size: 24px;
+    padding-bottom: 8px;
+    font-weight: 600;
+    color: var(--card-text);
+}
+
+.content {
+    color: var(--card-text);
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content hr {
+    width: 90%;
+    border-color: rgba(184, 181, 181, 0.463);
+    margin: 15px 0;
+}
+
+.content p {
+    margin-top: 0;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+.content h4 {
+    text-align: center;
+}
+
+.content a {
+    color: #FFC0CB;
+    text-decoration: underline;
+}
+
+.content a:hover {
+    color: #574145;
+}
+
+
+.button {
+    background-color: var(--button);
+    color: var(--button-text);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 10px;
+    transition: .2s;
+    cursor: pointer;
+    border: 1px solid black;
+    white-space: nowrap;
+}
+
+.button:hover {
+    background-color: var(--button-hover);
+    color: #000;
+}
+
+.button:disabled {
+    background-color: rgb(140, 140, 140);
+    color: black;
+    cursor: auto;
+    border: 1px solid black;
+}

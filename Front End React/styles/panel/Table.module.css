@@ -1,0 +1,107 @@
+.card {
+    background-color: var(--card-bg);
+    color: var(--card-text);
+    width: 95%;
+    direction: rtl;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header a {
+    background-color: var(--button);
+    color: var(--button-text);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .2s;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.header a:hover {
+    background-color: var(--button-hover);
+    color: #000;
+}
+
+.table {
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+    border-collapse:collapse;
+}
+
+.table thead th {
+    border-bottom: 2px solid var(--card-text);
+    padding-bottom: 10px;
+}
+
+.table tbody tr td {
+    padding-top: 17px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--card-text);
+}
+
+.delete {
+    background-color: rgb(163, 36, 36);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .2s;
+    cursor: pointer;
+    border: 1px solid rgb(141, 125, 125);
+}
+
+.delete:disabled {
+    background-color: rgb(117, 109, 109);
+    cursor: auto;
+}
+
+.navigation_container {
+    margin: auto;
+    margin-top: 45px;
+    display: flex;
+    direction: rtl;
+    width: 30%;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.navigation_container a , .dots {
+    white-space: nowrap;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: var(--card-bg);
+    color: var(--card-text);
+}
+
+.dots {
+    background-color: rgb(59, 60, 60);
+}
+
+.active {
+    background-color: var(--button-hover) !important;
+    color: #000 !important;
+}
+
+.navigation_container a:hover {
+    background-color: var(--button-hover);
+    color: #000;
+}
+
+.newTestQ {
+    max-width: 20px; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    direction: rtl;
+}

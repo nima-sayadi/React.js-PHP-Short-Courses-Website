@@ -1,0 +1,10 @@
+.wrapper {
+    display: flex;
+    overflow-x: clip;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}

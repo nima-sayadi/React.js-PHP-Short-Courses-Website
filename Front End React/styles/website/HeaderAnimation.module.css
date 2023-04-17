@@ -1,0 +1,117 @@
+.container{
+    position: relative;
+    top: -120px;
+    display: flex;
+    align-items: center;
+    padding-right: 40%;
+    width: 100%;
+    height: 110px;
+    background-color: var(--dark-green);
+    color: #EAE0C8;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 7%;
+    user-select: none;
+    direction: rtl;
+    animation: revealHeader 1s forwards;
+}
+
+.description{
+    width: 0;
+    direction: rtl;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    animation: revealDescription 1.57s 3.5s forwards;
+}
+
+.links_container{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 35%;
+    direction: rtl;
+}
+
+.link{
+    transition: .2s;
+    width: 0;
+    height: 26px;
+    direction: rtl;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.l1{
+    animation: revealLink1 0.5s 5.1s forwards;
+}
+
+.l2{
+    animation: revealLink2 0.5s 5.9s forwards;
+}
+
+.link:hover{
+    color: var(--dark-orange);
+    font-size: 18px;
+}
+
+.little_brain{
+    position: relative;
+    left: 95%;
+    top: -30%;
+    transform: scale(0.5);
+    animation: moveLittleBrain 8s .5s forwards;
+}
+
+@keyframes moveLittleBrain {
+    0% {
+        left: 95%;
+        top: -30%;
+        transform: scale(0.5);
+    }
+    50% {
+        left: 37%;
+        top: 0;
+        transform: scale(1);
+    }
+    100% {
+        left: 0;
+        top: 0;
+        transform: scale(1);
+    }
+}
+
+@keyframes revealDescription {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 45%;
+    }
+}
+
+@keyframes revealLink1 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 30%;
+    }
+}
+
+@keyframes revealLink2 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 23%;
+    }
+}
+
+@keyframes revealHeader {
+    to {
+        top: 0;
+    }
+}
+

@@ -1,0 +1,38 @@
+.card {
+    width: 90%;
+    background-color: var(--dark-green);
+    color: var(--card-text);
+    margin: auto auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    direction: rtl;
+}
+
+.header {
+    text-align: center;
+}
+
+.header hr {
+    width: 90%;
+}
+
+.button {
+    width: 100%;
+    text-align: center;
+}
+
+.button button{
+    background-color: var(--button);
+    color: var(--button-text);
+    font-weight: 600;
+    padding: 20px 20px;
+    font-size: 22px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.button button:hover {
+    background-color: var(--button-hover);
+}

@@ -1,0 +1,171 @@
+.card {
+    width: 90%;
+    background-color: var(--dark-green);
+    color: var(--card-text);
+    margin: 20px auto;
+    border-radius: 20px;
+    direction: rtl;
+}
+
+.header {
+    text-align: center;
+}
+
+.header hr {
+    width: 90%;
+}
+
+.button {
+    width: 100%;
+    text-align: center;
+}
+
+.button button{
+    background-color: var(--button);
+    color: var(--button-text);
+    font-weight: 600;
+    padding: 20px 20px;
+    margin: 0 20px;
+    margin-top: 20px;
+    font-size: 22px;
+    border-radius: 20px;
+    margin-bottom: 0;
+    transition: .2s;
+    cursor: pointer;
+    border: none;
+}
+
+.button button:last-child {
+    background-color: rgb(28, 211, 144);
+}
+
+.button button:hover {
+    background-color: var(--button-hover);
+}
+
+/* drop down */
+
+.section {
+    margin-right: 40px;
+    width: 87%;
+}
+
+.select_container {
+    justify-content: center;
+    background-color: var(--button);
+    cursor: pointer;
+    border-color: #000000;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+.select_container p {
+    width: 100%;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0;
+    padding: 20px 0px;
+    transition: .3s;
+}
+
+.drop_down {
+    position:absolute;
+    flex-direction: column;
+    max-height: 300px;
+    overflow-y: auto;
+    display: none;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: var(--button);
+    cursor: pointer;
+}
+
+.select_container p {
+    font-size: 1.3rem;
+    color: #000000;
+}
+
+.drop_down div {
+    width: 100%;
+}
+
+.drop_down p {
+    width: 100%;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0;
+    padding: 20px 0px;
+    transition: .3s;
+}
+
+.drop_down p:first-child{
+    margin-top: 8px;
+}
+
+.drop_down p:last-child{
+    margin-bottom: 8px;
+}
+
+.drop_down hr {
+    width: 100%;
+    border-color: #000000;
+}
+
+.drop_down p:hover,.select_container:hover{
+    background-color: var(--button-hover);
+}
+
+/* End drop down */
+
+.section_seperator {
+    margin: 0 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.ap {
+    margin-right: 40px;
+}
+
+.answers {
+    display: flex;
+    margin-left: 8%;
+}
+
+.date_container{
+    margin-right: 40px;
+}
+
+.date_container > div{
+    width: 90%;
+    margin-bottom: 50px;
+    height: 3.5rem;
+    align-items: center;
+    border: 1px solid var(--card-text);
+    border-radius: 8px;
+}
+
+.date_container div input {
+    width: 100%;
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    background-color: transparent;
+    color: var(--card-text);
+    border: none;
+    padding: 8px 15px;
+    direction: rtl;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.date_container div div {
+    background-color: var(--button);
+    color: #000;
+}

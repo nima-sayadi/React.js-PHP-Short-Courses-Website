@@ -1,0 +1,20 @@
+.card{
+    margin: auto;
+    width: 50%;
+    margin-top: 20%;
+    background-color: #a9a9a9a2;
+    text-align: center;
+    color: #000;
+    border-radius: 30px;
+    border: 1px solid #000;
+    user-select: none;
+    padding: 20px;
+    direction: rtl;
+}
+
+@media only screen and (max-width : 1000px){
+    .card {
+        margin-top: 30%;
+        width: 90%;
+    }
+}

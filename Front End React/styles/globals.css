@@ -1,0 +1,78 @@
+:root {
+  --dark-green : rgb(0, 63, 52);
+  --dark-orange : rgb(249, 120, 56);
+  --card-bg : rgba(0, 63, 52, 0.756);
+  --card-text : #e6e4e4;
+  --button : rgb(249, 120, 56);
+  --button-text : #201a1a;
+  --button-hover : #BCD4E6;
+  --error : #FFA07A;
+  --correct : rgb(51, 213, 45);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: IranSans,sans-serif,'Times New Roman',Helvetica;
+  background-color: var(--dark-orange);
+  user-select: none;
+  z-index: 100;
+}
+
+input , button , textarea {
+  font-family: IranSans,sans-serif,'Times New Roman',Helvetica;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  line-height: 40px;
+}
+
+ul {
+  padding: 0;
+}
+
+.success_msg {
+  position: absolute;
+  display: none;
+  z-index: 101;
+  opacity: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.397);
+  transition: .5s;
+}
+
+.success_msg div {
+  position: fixed;
+  width: max-content;
+  margin: 20% 35%;
+  background-color: var(--correct);
+  color: rgb(46, 17, 3);
+  padding: 60px;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 30px;
+  direction: rtl;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}

@@ -1,0 +1,29 @@
+.container {
+    margin: 20px 0;
+}
+
+.container label {
+    border-radius: 4px;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: var(--button);
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--button-text);
+    transition: .2s;
+}
+
+.container span h3 {
+    display: inline;
+    white-space: nowrap;
+}
+
+.container label:hover {
+    background-color: var(--button-hover);
+    color: #000;
+}
+
+.container input {
+    width: 0;
+}

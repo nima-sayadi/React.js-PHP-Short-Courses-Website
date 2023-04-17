@@ -1,0 +1,66 @@
+.no_item {
+    background-color: var(--card-bg);
+    color: var(--card-text);
+    width: 80%;
+    margin: auto auto;
+    text-align: center;
+    direction: rtl;
+    border-radius: 20px;
+}
+
+.card {
+    background-color: #fff;
+}
+
+.paper {
+    width: 80%;
+    direction: rtl;
+    margin: 40px auto;
+    border: 20px solid black;
+    border-style:double;
+    padding: 0 15px;
+}
+
+.paper hr {
+    border-color: #000;
+}
+
+.god {
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.body p {
+    font-size: 18px;
+}
+
+.sign {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.button {
+    text-align: center;
+    direction: rtl;
+    margin-bottom: 40px;
+}
+
+.button button {
+    background-color: var(--button);
+    color: var(--button-text);
+    font-weight: 600;
+    font-size: 22px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button button:hover {
+    background-color: var(--button-hover);
+    color: #000;
+}

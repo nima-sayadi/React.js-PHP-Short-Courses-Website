@@ -1,0 +1,71 @@
+.card {
+    width: 90%;
+    background-color: var(--dark-green);
+    color: var(--card-text);
+    margin: 20px auto;
+    border-radius: 20px;
+    direction: rtl;
+}
+
+.header {
+    text-align: center;
+}
+
+.header hr {
+    width: 90%;
+}
+
+.button {
+    width: 100%;
+    text-align: center;
+}
+
+.button button{
+    background-color: var(--button);
+    color: var(--button-text);
+    font-weight: 600;
+    padding: 20px 20px;
+    font-size: 22px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    transition: .2s;
+    cursor: pointer;
+    border: none;
+}
+
+.button button:hover {
+    background-color: var(--button-hover);
+}
+
+.date_container{
+    margin-right: 40px;
+}
+
+.date_container > div{
+    width: 90%;
+    margin-bottom: 50px;
+    height: 3.5rem;
+    align-items: center;
+    border: 1px solid var(--card-text);
+    border-radius: 8px;
+}
+
+.date_container div input {
+    width: 100%;
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    background-color: transparent;
+    color: var(--card-text);
+    border: none;
+    padding: 8px 15px;
+    direction: rtl;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.date_container div div {
+    background-color: var(--button);
+    color: #000;
+}
