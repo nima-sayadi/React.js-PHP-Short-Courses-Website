@@ -14,8 +14,8 @@
 - Execute this command : `npm run dev`
 - Visit http://localhost:3000 to view your application
 
-This school project was an unfinished project that was written in next.js(react.js) as front end and PHP as backend. No backend frameworks were used for PHP. You can finish the project yourself and enjoy learning PHP and next.js(react.js). Who knows maybe this project will even make you some $$$ 😁. Some nice CSS and JS animations were used in this project so make the most of it !
+This project was an unfinished project that was written in next.js(react.js) as front end and PHP as backend. No backend frameworks were used for PHP. You can finish the project yourself and enjoy learning PHP and Next.js (React.js). 
 
-Last but not least, This project was completely made by me.
+EDIT: Nowadays with AI this repo may not be that valuable anymore, However, keep in mind that if you learn from scratch and build your own stuff, you can then become a senior developer that catches the mistakes of the AI, and can effectively fine-tune AI agents ;)
 
 Remember, Coding is a passion 💓 Good luck ✌
